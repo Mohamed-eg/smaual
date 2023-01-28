@@ -1,0 +1,92 @@
+.img-svg {
+    margin: 0 20px !important;
+}
+
+body #costemNav {
+    background: #ffffff;
+    z-index: 30;
+    border-radius: 5px;
+    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+    position: fixed;
+    width: 100%;
+
+    ul {
+        z-index: 30;
+
+        li {
+            padding: 0;
+            margin: 0;
+            border-radius: 10px;
+            transition: all .5s;
+
+            .dropdown-menu {
+                border-radius: 5px;
+                box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+
+            }
+
+            a {
+                padding: 5px;
+            }
+        }
+
+        li:hover {
+            box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+            ;
+        }
+    }
+}
+
+.four-photo {
+    height: 450px !important;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgb(133, 133, 133), inset -1px -1px 4px rgb(133, 133, 133);
+    // backdrop-filter: ;
+}
+
+.castumePar {
+    text-align: right;
+    font-weight: 800 !important;
+    color: #00ff22;
+}
+
+.logoSVG {
+    width: 40px;
+    margin: 0;
+    border-radius: 25%;
+}
+
+.logoSVG:hover {
+    box-shadow: 0px 3px 5px rgb(133, 133, 133), inset 0px -3px 5px rgb(133, 133, 133);
+}
+
+.OverSec {
+    margin-top: 80px !important;
+}
+
+.sliderDiv {
+
+    p,
+    a,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-shadow: 0 0 5px #fff;
+        background-color: rgba(255, 255, 255, 0.253);
+        border-radius: 50%;
+    }
+}
+
+.Text-enfo {
+    h2 {
+        color: #005f0d;
+
+        span {
+            color: rgb(5, 5, 5);
+            fill: none;
+        }
+    }
+}
