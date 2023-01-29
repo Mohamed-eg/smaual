@@ -25,6 +25,21 @@
   margin: 20px;
 }
 
+label {
+  width: 100% !important;
+  margin-top: 20px;
+}
+
+label i {
+  color: #00c30d;
+}
+
+.form-btn:hover {
+  -webkit-box-shadow: 0 0 10px #338fff;
+          box-shadow: 0 0 10px #338fff;
+  border-radius: 10px;
+}
+
 .img-svg {
   margin: 0 20px !important;
 }
