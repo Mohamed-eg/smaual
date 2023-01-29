@@ -112,3 +112,15 @@ body #costemNav {
 .nav-link {
     padding: 5px !important;
 }
+
+.HomeContaner {
+    display: none;
+}
+
+.lodingpag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #000a01;
+}
