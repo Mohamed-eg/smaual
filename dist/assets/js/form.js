@@ -25,6 +25,10 @@ const firebaseConfig = {
       saveData(name,email,phone,address,country,date)
       document.querySelector('.formcountaner').style.display="none";
       document.querySelector('.valed').style.display="flex";
+      setTimeout(()=>{
+        document.querySelector('.formcountaner').style.display="flex";
+        document.querySelector('.valed').style.display="none";
+      },3000)
   }
 
   document.getElementById('contactForm').addEventListener("submit",submitfu);
