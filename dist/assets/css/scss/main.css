@@ -1,3 +1,33 @@
+.valed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  position: relative;
+  display: none;
+}
+
+.valed h1 {
+  color: #18cb00;
+}
+
+.valed img {
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 15px #33ff41;
+          box-shadow: 0 0 15px #33ff41;
+  margin: 20px;
+}
+
 .img-svg {
   margin: 0 20px !important;
 }
@@ -40,10 +70,29 @@ body #costemNav ul li:hover {
 }
 
 .four-photo {
-  height: 450px !important;
   border-radius: 15px;
   -webkit-box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
           box-shadow: 1px 1px 10px #858585, inset -1px -1px 4px #858585;
+  margin: 5px;
+  width: 300px;
+}
+
+.four-photo img {
+  background-color: #e7aa00;
+  height: 380px !important;
+}
+
+.four-photo-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
 }
 
 .castumePar {
@@ -53,8 +102,9 @@ body #costemNav ul li:hover {
 }
 
 .logoSVG {
-  width: 40px;
+  width: 50px;
   margin: 0;
+  padding: 0;
   border-radius: 25%;
 }
 
@@ -87,5 +137,9 @@ body #costemNav ul li:hover {
 .Text-enfo h2 span {
   color: #050505;
   fill: none;
+}
+
+.nav-link {
+  padding: 5px !important;
 }
 /*# sourceMappingURL=main.css.map */

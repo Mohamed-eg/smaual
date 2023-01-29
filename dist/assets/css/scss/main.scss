@@ -1,3 +1,5 @@
+@import "./form";
+
 .img-svg {
     margin: 0 20px !important;
 }
@@ -38,10 +40,25 @@ body #costemNav {
 }
 
 .four-photo {
-    height: 450px !important;
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgb(133, 133, 133), inset -1px -1px 4px rgb(133, 133, 133);
+    margin: 5px;
+    width: 300px;
+
+    img {
+        background-color: #e7aa00;
+        height: 380px !important;
+    }
+
     // backdrop-filter: ;
+}
+
+.four-photo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+
 }
 
 .castumePar {
@@ -51,8 +68,9 @@ body #costemNav {
 }
 
 .logoSVG {
-    width: 40px;
+    width: 50px;
     margin: 0;
+    padding: 0;
     border-radius: 25%;
 }
 
@@ -89,4 +107,8 @@ body #costemNav {
             fill: none;
         }
     }
+}
+
+.nav-link {
+    padding: 5px !important;
 }

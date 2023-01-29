@@ -1,0 +1,19 @@
+.valed {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    display: none;
+
+    h1 {
+        color: rgb(24, 203, 0);
+    }
+
+    img {
+        border-radius: 50%;
+        box-shadow: 0 0 15px #33ff41;
+        margin: 20px;
+    }
+}
